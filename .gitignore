@@ -33,4 +33,4 @@ yarn-error.log*
 # vercel
 .vercel
 .eslintcache
-firebaseconfig
+.firebase.config
