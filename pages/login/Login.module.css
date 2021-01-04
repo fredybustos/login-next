@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login h1 {
+  color: #1c5480;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.login h2 {
+  color: #0099ff;
+  font-size: 18px;
+}
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+@media (min-width: 520px) {
+  .login {
+    height: 90vh;
+  }
+}

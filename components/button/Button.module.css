@@ -1,0 +1,67 @@
+.button {
+  border: none;
+  border: 0;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  height: 38px;
+}
+.button[disabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.button:hover {
+  opacity: 0.7;
+}
+.button svg {
+  margin-right: 10px;
+}
+
+.github {
+  background-color: #000;
+}
+.email {
+  background-color: #797979;
+}
+.google {
+  background-color: #e13f29;
+}
+.facebook {
+  background-color: #3e548f;
+}
+.twitter {
+  background-color: #1fa1f1;
+}
+.primary {
+  background-color: #0099ff;
+  justify-content: center;
+}
+.text {
+  color: #000;
+  background-color: transparent;
+}
+.text:hover {
+  text-decoration: underline;
+}
+.cancel {
+  color: #000;
+  background-color: transparent;
+}
+.cancel:hover {
+  background: #858585;
+  color: #fff;
+}
+.btn_icon {
+  background-color: transparent;
+  color: #cdcdcd;
+  font-size: 20px;
+  padding: 8px;
+  height: auto;
+  font-weight: 500;
+}

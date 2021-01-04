@@ -1,0 +1,31 @@
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+
+.layout {
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+}
+.footer p {
+  color: #111;
+  font-weight: 500;
+  font-size: 12px;
+}
+.footer p a {
+  margin-left: 6px;
+  color: #0099ff;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

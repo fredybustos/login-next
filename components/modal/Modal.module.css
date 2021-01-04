@@ -1,0 +1,33 @@
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none;
+}
+.modal {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h2 {
+  margin: 0;
+  padding: 0;
+}
