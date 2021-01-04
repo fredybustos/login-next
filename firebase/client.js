@@ -1,5 +1,5 @@
 import firebase from "firebase"
-import { firebaseConfig } from ".firebase.config"
+import { firebaseConfig } from "../config"
 
 !firebase.apps.length && firebase.initializeApp(firebaseConfig)
 
