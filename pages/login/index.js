@@ -61,7 +61,7 @@ export default function Login() {
         {user === USER_STATES.NOT_LOGGED && (
           <div className={styles.buttons}>
             <Avatar center size="100px" />
-            <h2>Login with differents services</h2>
+            <h2>Login with different services</h2>
             <Button
               variant="github"
               mbottom="20px"
