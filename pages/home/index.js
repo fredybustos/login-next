@@ -30,14 +30,14 @@ export default function Home() {
         <>
           <div className={styles.signup}>
             <Button variant="text" onClick={handleLogout}>
-              Signup
+              Logout
             </Button>
             <Avatar src={user && user.avatar ? user.avatar : ""} />
           </div>
           <div className={styles.home}>
             <h1>Home</h1>
             <h2>This page is just testing login with different services</h2>
-            <p>Thanks for you visit :) </p>
+            <p>Thanks for your visit :) </p>
           </div>
         </>
       ) : (
